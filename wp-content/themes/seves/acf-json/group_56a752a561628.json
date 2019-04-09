@@ -1,0 +1,93 @@
+{
+    "key": "group_56a752a561628",
+    "title": "Interventions",
+    "fields": [
+        {
+            "key": "field_56a752bdcf9a9",
+            "label": "Ligne d'affichage sur la Home",
+            "name": "line_number",
+            "prefix": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1: Premi\u00e8re Ligne": "1: Premi\u00e8re Ligne",
+                "2: Deuxi\u00e8me Ligne": "2: Deuxi\u00e8me Ligne",
+                "3: Troisi\u00e8me Ligne": "3: Troisi\u00e8me Ligne",
+                "4: Quatri\u00e8me Ligne": "4: Quatri\u00e8me Ligne"
+            },
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical"
+        },
+        {
+            "key": "field_56a7532086f56",
+            "label": "D\u00e9calage \u00e0 gauche du point en pourcentage (Juste le nombre)",
+            "name": "position_point",
+            "prefix": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_56a76b6000b81",
+            "label": "Lieu de l'intervention",
+            "name": "location",
+            "prefix": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "intervention"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1453812616
+}
